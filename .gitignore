@@ -1,0 +1,5 @@
+# Ignore zip file
+*.zip
+
+# Ignore data  csv file
+*.csv
