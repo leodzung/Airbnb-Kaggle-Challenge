@@ -22,6 +22,9 @@ LightGBM is a efficient, distributed gradient boosting algorithm. It has several
 2. Better accuracy
 3. Support GPU learning
 
+References:
+[readthedocs.io] (https://lightgbm.readthedocs.io/en/latest/)
+
 ## Feature Engineer
 
 ### Extract Frequency Counts
@@ -36,3 +39,5 @@ What additional features not currently in the data would best help I answer my q
 
 ### Model Explanation
 // TODO
+
+## Parameters Tuning
