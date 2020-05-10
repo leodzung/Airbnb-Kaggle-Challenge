@@ -13,6 +13,7 @@ The top team scored 0.88208 in public leaderboard and 0.88697 in private leaderb
 What would be a good evaluation metric? What might work better than accuracy? Why?
 Are there biases in my model predictions?
 
+## LightGBM
 ### Why LightGBM
 At the time of the competition (early 2016), XGBoost was the algorithm of choice for many data scientists, and it indeed helped winning many Kaggle competitions. A year later (Jan 2017), LightGBM first stable version was released by Microsoft. What kind of results that the participants in the competition would have if they used LightGBM? This is an attempt to answer this question.
 
