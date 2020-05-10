@@ -14,11 +14,13 @@ What would be a good evaluation metric? What might work better than accuracy? Wh
 Are there biases in my model predictions?
 
 ### Why LightGBM
-At that time, LightGBM wasn't born and neural networks was still unpopular due to the expensive computational cost. This intrigues my curiosity - how would these novel approaches perform on this competition, compared with XGBoost, which is very popular at the time the competition was held?
+At the time of the competition (early 2016), XGBoost was the algorithm of choice for many data scientists, and it indeed helped winning many Kaggle competitions. A year later (Jan 2017), LightGBM first stable version was released by Microsoft. What kind of results that the participants in the competition would have if they used LightGBM? This is an attempt to answer this question.
 
-// TODO
-Why I decided to use LightGBM
-What makes LightGBM different than xgboost
+### What is LightGBM
+LightGBM is a efficient, distributed gradient boosting algorithm. It has several advantages over XGBoost that will be shown in the benchmark, including:
+1. Faster training speed
+2. Better accuracy
+3. Support GPU learning
 
 ## Feature Engineer
 
