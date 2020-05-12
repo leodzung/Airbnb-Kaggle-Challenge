@@ -37,7 +37,8 @@ Taking a look at the dataframe, we can easily that there are missing data in
 
 ### Visualization
 ![Gender](/visualization/gender.png)
-This confirm the amount of missing data in gender. There is also a slight difference in 
+
+This confirm the amount of missing data in gender. There are a slightly more female than male, which either could mean that Airbnn attract more female users than their male counterpart, or could also mean that female users more likely to identify their gender on Airbnb more than their male counterpart.
 
 ## Feature Engineer
 
