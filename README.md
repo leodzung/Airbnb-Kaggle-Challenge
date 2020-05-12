@@ -50,7 +50,7 @@ What I notice that there are a significant number of Airbnb users (96%) has engl
 
 ![Destination by Gender](/visualization/age.png)
 
-The largest age group on Airbnb is between 25 and 40. 
+The largest age group on Airbnb is between 25 and 40. Notice that the curve is not smooth because there are a lot of missing data for this feature.
 
 ## Feature Engineer
 
