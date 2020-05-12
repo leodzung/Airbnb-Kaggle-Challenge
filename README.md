@@ -40,6 +40,8 @@ Taking a look at the dataframe, we can easily that there are missing data in
 
 This confirm the amount of missing data in gender. There are a slightly more female than male, which either could mean that Airbnn attract more female users than their male counterpart, or could also mean that female users more likely to identify their gender on Airbnb more than their male counterpart.
 
+![Destination by Gender](/visualization/destination by gender.png)
+
 ## Feature Engineer
 
 ### Extract Frequency Counts
