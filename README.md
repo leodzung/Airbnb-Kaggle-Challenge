@@ -41,9 +41,12 @@ Taking a look at the dataframe, we can easily that there are missing data in
 This confirm the amount of missing data in gender. There are a slightly more female than male, which either could mean that Airbnn attract more female users than their male counterpart, or could also mean that female users more likely to identify their gender on Airbnb more than their male counterpart.
 
 ![Destination by Gender](/visualization/destination%20by%20gender.png)
+
 This so no big differences between the two genders when it comes to travelling. But this is useful to know the favorite destination: US. Let's take a closer look.
 
 ![Destination by Gender](/visualization/destination.png)
+
+What I notice that there are a significant number of Airbnb users (96%) has english as their language of choice. This can explain the inherant bias toward US as the users make their first booking.
 
 ## Feature Engineer
 
