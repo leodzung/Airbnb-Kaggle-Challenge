@@ -35,6 +35,9 @@ Taking a look at the dataframe, we can easily that there are missing data in
 2. gender in the form of '-unknown-' string. There are nearly 47% of missing values.
 3. age in the form of NaN. 42% of this feature is NaN. More over, when we do have the age data, it is not reliable. There are 830 users that have age more than 122 (longest human lifespan to date), and 188 users with age lower than 18 (legal age for Airbnb users). I have decided to replace that are outside of the range [13, 95] to NaN.
 
+### Visualization
+
+
 ## Feature Engineer
 
 ### Extract Frequency Counts
