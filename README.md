@@ -48,6 +48,10 @@ This so no big differences between the two genders when it comes to travelling. 
 
 What I notice that there are a significant number of Airbnb users (96%) has english as their language of choice. This can explain the inherant bias toward US as the users make their first booking.
 
+![Destination by Gender](/visualization/age.png)
+
+The largest age group on Airbnb is between 25 and 40. 
+
 ## Feature Engineer
 
 ### Extract Frequency Counts
