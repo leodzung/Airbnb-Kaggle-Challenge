@@ -53,8 +53,14 @@ The largest age group on Airbnb is between 25 and 40. Notice that the curve is n
 
 ## Feature Engineer
 
-### Extract Frequency Counts
-For each user, I count the number of time 
+### Session Data
+
+Session data tells a lot about user behavior:
+1. What action they take, what is the action type. 
+2. What device they are using.
+3. How long is the session in seconds.
+
+This type of information is very helpful to predict whether or not the users will make their first booking. The more action they take, the more time they actively spend on these sessions, the more likely that they are serious with their travelling plan and the more ready they are to finalized their booking.
 
 The data provided by Airbnb has an important feature: the cut-off time between the training data and testing data -07/01/2014. Interestingly, the session informations are only available for the data points from 2014 onward. With this in mind, I ran the model on all data and data after 2014 (fresh data) and ensemble the prediction with weights (0.4 and 0.6 respectively), as I deemed fresh data is more important.
 
