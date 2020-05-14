@@ -5,13 +5,12 @@ This is my personal attempt to revisit the [Airbnb Chanllenge on Kaggle](https:/
 The competition was hosted on Kaggle 4 years ago by Airbnb as a recruiting competition. Kagglers who impressed Airbnb received an interview invite to join Airbnb's Data Science and Analytics team. With such attractive prospective to work for a fast growing start-up, this 3-months competition attracted nearly 1,500 participants.
 
 ## Evaluation Metric
-The competition uses NDCG (Normalized discounted cumulative gain) @k where k=5([Read more](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/overview/evaluation)).
+The competition uses NDCG (Normalized discounted cumulative gain) @k where k=5([Read more](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/overview/evaluation)). This is a measure of ranking quality that takes into account:
+1. Relevance of every recommendation
+2. Order of each recomendation. The item with highest relevance should be recommended first.
+3. Variety in the number of recommendation. Depending on various factors, the number of recommendations may vary. For example, for new users, there might be more recommendation to catch a wider net of posibility, while for seasoned users, more historical data allows more targeted and thus narrow recommendation.
 
 The top team scored 0.88208 in public leaderboard and 0.88697 in private leaderboard. Unfortunately, there was no write-up on how this team achieved such high score on the leaderboard. The 2nd place team with the public leaderboard score of 0.88209 and private leaderboard score of 0.88682, which is marginally lower than the 1st place. They shared [their solution in R]( https://github.com/Keiku/kaggle-airbnb-recruiting-new-user-bookings). This solution is using ensembles of 18 models, mostly XGBoost, on different variation of 1312 base features.
-
-// TODO
-What would be a good evaluation metric? What might work better than accuracy? Why?
-Are there biases in my model predictions?
 
 ## LightGBM
 ### Why LightGBM
