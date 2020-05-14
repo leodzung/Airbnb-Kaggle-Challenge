@@ -62,7 +62,15 @@ Session data tells a lot about user behavior:
 
 This type of information is very helpful to predict whether or not the users will make their first booking. The more action they take, the more time they actively spend on these sessions, the more likely that they are serious with their travelling plan and the more ready they are to finalized their booking.
 
+Therefore, for each of the features in the session data, I extracted frequency counts for categorical columns and mean, standard deviation, median, and also the skewness of the numerical ones.
+
 The data provided by Airbnb has an important feature: the cut-off time between the training data and testing data -07/01/2014. Interestingly, the session informations are only available for the data points from 2014 onward. With this in mind, I ran the model on all data and data after 2014 (fresh data) and ensemble the prediction with weights (0.4 and 0.6 respectively), as I deemed fresh data is more important.
+
+### Dates
+
+This is a classic time series prediction problem. Users are more active and make the first booking on a certain time of the , on a certain day of the week, and certain month of the year. This is evident in the data exploration section of the notebook - for example, Airbnb users seem to be most active on Tuesday. 
+
+For each date in the dataset, I parsed out the year, month, day and day of the week and use them as the features in my  final model.
 
 // TODO
 What features did I end up using?
