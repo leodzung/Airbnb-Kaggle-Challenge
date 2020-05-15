@@ -72,7 +72,12 @@ This is a classic time series prediction problem. Users are more active and make
 
 For each date in the dataset, I parsed out the year, month, day and day of the week and use them as the features in my  final model.
 
-// TODO
+### Most important features
+
+I ended up create 157 features, which is very light compared with the top teams. With thoughtful selection of the most important features and tuning hyper-parameters, LightGBM allows me to have a comparable results with the top teams with much less feature engineering.
+
+![Destination by Gender](/visualization/top_10_features.png)
+
 What features did I end up using?
 What features did I create?
 What additional features not currently in the data would best help I answer my question?
