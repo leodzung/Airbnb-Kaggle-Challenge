@@ -87,4 +87,7 @@ Also as predicted, the time that a user spend per session is also important to p
 
 ## Parameters Tuning
 
-### 
+To get better accuracy:
+1. Use large max_bin
+2. Use small learning_rate with large num_iterations
+3. Use large num_leaves. This can cause overfitting so I am also using lambda_l1 and lambda_l2 for regularization
