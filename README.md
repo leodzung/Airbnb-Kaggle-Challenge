@@ -83,6 +83,7 @@ Age is also heavily missing in the dataset. If this feature is more complete, th
 
 Age is followed by the date the account created. The date is parsed to the day of the week, month, and year. This confirms our theory discussed aboved: travelling business is very seasonal. The date that you make the booking can be a very important evident to where you want to go. I personally never would want to travel to Boston, MA (where I live) in the middle of the winter, and would always want to come visit my home country Vietnam in the summer.
 
+Also as predicted, the time that a user spend per session is also important to predict the user's next behavior.
 
 What features did I end up using?
 What features did I create?
