@@ -76,7 +76,10 @@ For each date in the dataset, I parsed out the year, month, day and day of the w
 
 I ended up create 157 features, which is very light compared with the top teams. With thoughtful selection of the most important features and tuning hyper-parameters, LightGBM allows me to have a comparable results with the top teams with much less feature engineering.
 
-![Destination by Gender](/visualization/top_10_features.png)
+![Top 10 Features](/visualization/top_10_features.png)
+
+Notice that age is the most important features across different cross-validation. This might mean that the model is able to regconize an underlying tendency across different ages when it comes to choosing a travel destination. One such tendency that I found out through the exploration in the notebook is that the younger (below 45 - an arbitrary cutoff) tends to travel domestically in the U.S., while the older (45 and above).
+Age is also heavily missing in the dataset. If this feature is more complete, the model might be able to predict even more accurately.
 
 What features did I end up using?
 What features did I create?
