@@ -81,6 +81,9 @@ I ended up create 157 features, which is very light compared with the top teams.
 Notice that age is the most important features across different cross-validation. This might mean that the model is able to regconize an underlying tendency across different ages when it comes to choosing a travel destination. One such tendency that I found out through the exploration in the notebook is that the younger (below 45 - an arbitrary cutoff) tends to travel domestically in the U.S., while the older (45 and above).
 Age is also heavily missing in the dataset. If this feature is more complete, the model might be able to predict even more accurately.
 
+Age is followed by the date the account created. The date is parsed to the day of the week, month, and year. This confirms our theory discussed aboved: travelling business is very seasonal. The date that you make the booking can be a very important evident to where you want to go. I personally never would want to travel to Boston, MA (where I live) in the middle of the winter, and would always want to come visit my home country Vietnam in the summer.
+
+
 What features did I end up using?
 What features did I create?
 What additional features not currently in the data would best help I answer my question?
