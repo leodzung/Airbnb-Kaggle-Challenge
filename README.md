@@ -85,11 +85,6 @@ Age is followed by the date the account created. The date is parsed to the day o
 
 Also as predicted, the time that a user spend per session is also important to predict the user's next behavior.
 
-What features did I end up using?
-What features did I create?
-What additional features not currently in the data would best help I answer my question?
-
-### Model Explanation
-// TODO
-
 ## Parameters Tuning
+
+### 
