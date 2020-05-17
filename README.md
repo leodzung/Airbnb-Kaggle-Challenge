@@ -95,5 +95,4 @@ Since LightGBM doesn't take much resource to run, and it is actually quite fast 
 
 Thus, I use scikit-learn's GridSearchCV on those parameters to search for the best combination of (max_bin, learning_rate, num_iterations, num_leaves, lambda_l1, and lambda_l2) across 5 folds. With 3 options for each variables, there are total of 3,645 iterations, which took my local machine running a single GeForce RTX 2070 SUPER a full day to find the best parameters.
 
-
-
+TODO: update with the parameters from PC
