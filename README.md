@@ -10,6 +10,8 @@ The competition uses NDCG (Normalized discounted cumulative gain) @k where k=5([
 2. Order of each recomendation. The item with highest relevance should be recommended first.
 3. Variety in the number of recommendation. Depending on various factors, the number of recommendations may vary. For example, for new users, there might be more recommendation to catch a wider net of posibility, while for seasoned users, more historical data allows more targeted and thus narrow recommendation.
 
+This evaluation metric is quite realistic as the problem Airbnb wanted to solve was to recommend top 5 countries to their new user. There first booking experience is very important and can decide whether they will make a booking and stay in the platform or decide to use the service somewhere else.
+
 The top team scored 0.88208 in public leaderboard and 0.88697 in private leaderboard. Unfortunately, there was no write-up on how this team achieved such high score on the leaderboard. The 2nd place team with the public leaderboard score of 0.88209 and private leaderboard score of 0.88682, which is marginally lower than the 1st place. They shared [their solution in R]( https://github.com/Keiku/kaggle-airbnb-recruiting-new-user-bookings). This solution is using ensembles of 18 models, mostly XGBoost, on different variation of 1312 base features.
 
 ## LightGBM
