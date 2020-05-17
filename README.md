@@ -87,7 +87,13 @@ Also as predicted, the time that a user spend per session is also important to p
 
 ## Parameters Tuning
 
-To get better accuracy:
+Since LightGBM doesn't take much resource to run, and it is actually quite fast compared to XGBoost, my major interest is to get better accuracy. To archieve that goal, I can:
+
 1. Use large max_bin
 2. Use small learning_rate with large num_iterations
 3. Use large num_leaves. This can cause overfitting so I am also using lambda_l1 and lambda_l2 for regularization
+
+Thus, I use scikit-learn's GridSearchCV on those parameters to search for the best combination of (max_bin, learning_rate, num_iterations, num_leaves, lambda_l1, and lambda_l2) across 5 folds. With 3 options for each variables, there are total of 3,645 iterations, which took my local machine running a single GeForce RTX 2070 SUPER a full day to find the best parameters.
+
+
+
